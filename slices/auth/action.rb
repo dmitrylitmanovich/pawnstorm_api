@@ -2,6 +2,6 @@
 # frozen_string_literal: true
 
 module Auth
-  class Action < PawnstormAPI::Action
+  class Action < Hanami::Action
   end
 end

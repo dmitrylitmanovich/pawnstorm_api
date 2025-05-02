@@ -2,9 +2,6 @@
 
 module PawnstormAPI
   class Routes < Hanami::Routes
-    # Add your routes here. See https://guides.hanamirb.org/routing/overview/ for details.
-
-    slice :auth, at: "/auth" do
-    end
+    slice :auth, at: "/auth"
   end
 end

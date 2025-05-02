@@ -1,5 +1,5 @@
-module PawnstormApi
-  module Repositories
+module PawnstormAPI
+  module Repos
     class UserRepo < ROM::Repository[:users]
       commands :create
 

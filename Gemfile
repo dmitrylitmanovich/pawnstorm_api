@@ -15,6 +15,8 @@ gem "dry-operation"
 gem "puma"
 gem "rake"
 gem "pg"
+gem "bcrypt"
+gem "jwt"
 
 group :development do
   gem "hanami-webconsole", "~> 2.2"
