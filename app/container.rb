@@ -1,3 +1,3 @@
-register "repositories.user_repo", -> {
-  PawnstormApi::Repositories::UserRepo.new(resolve("persistence"))
+register "repos.user_repo", -> {
+  PawnstormApi::Repos::UserRepo.new(resolve("persistence"))
 }
