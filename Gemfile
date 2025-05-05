@@ -38,7 +38,10 @@ group :test do
   # Database
   gem "database_cleaner-sequel"
 
+  gem "faker"
+
   # Web integration
   gem "capybara"
   gem "rack-test"
 end
+
