@@ -17,6 +17,7 @@ gem "rake"
 gem "pg"
 gem "bcrypt"
 gem "jwt"
+gem "rack-cors"
 
 group :development do
   gem "hanami-webconsole", "~> 2.2"
@@ -44,4 +45,3 @@ group :test do
   gem "capybara"
   gem "rack-test"
 end
-
